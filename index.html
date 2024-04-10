@@ -32,16 +32,15 @@
             <p>And much more!</p>
           </li>
         </ul>
-        <form method="get" action="./Success/">
-          <label for="email">Email address <span>Valid email required</span></label> <br />
+        <form method="get" >
+          <label for="email">Email address <span id="error">Valid email required</span></label> <br />
           <input
             id="email"
-            class="mail"
             type="email"
             placeholder="email@company.com"
             required
           /><br /><br />
-          <button class="mail">Subscribe to monthly newsletter</button>
+          <button id="send">Subscribe to monthly newsletter</button>
         </form>
       </div>
     </main>
