@@ -1,13 +1,15 @@
+/* Mobile first design */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(255, 255, 255);
+  background-color: rzgb(255, 255, 255);
   width: 100%;
 }
 
+/* Overall container */
 .container{
     width: 100%;
     margin: auto;
@@ -16,9 +18,11 @@ body {
     background-color:rgb(255, 255, 255) ;
 }
 
+/* Image container */
 .img {
     width: 100%;
 }
+
 
 #bg-img{
     width: 100%;
@@ -58,6 +62,7 @@ li:nth-of-type(1) p, li:nth-of-type(2) p{
     line-height: 25px;
 }
 
+/* Form section */
 #email {
     width: 90%;
     height:50px ;
@@ -98,7 +103,7 @@ label {
 }
 
 span {
-    margin-left: 133px;
+    margin-left: 70px;
     color: rgb(255, 98, 87);
     display: none;
 }
@@ -107,6 +112,7 @@ form{
     margin-top: 25px;
 }
 
+/* Desktop view */
 @media screen and  (min-width: 1040px){
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -242,7 +248,7 @@ label {
 }
 
 span {
-    margin-left: 90px;
+    margin-left: 80px;
     color: rgb(255, 98, 87);
 }
 
@@ -253,6 +259,8 @@ form{
 }
 
 /* Success Page */
+
+/* Mobile first design */
 .success-container {
     width: 100%;
 }
@@ -288,6 +296,7 @@ form{
     margin-bottom: 15px;
 }
 
+/* Desktop view */
 @media screen and  (min-width: 1040px){
     .success-container {
         width: 30%;
