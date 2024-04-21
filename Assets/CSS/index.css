@@ -6,12 +6,12 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: rzgb(255, 255, 255);
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* Overall container */
 .container{
-    width: 100%;
+    /* width: 100%; */
     margin: auto;
     background-color: inherit;
     color: rgb(36, 39, 66);
@@ -20,7 +20,8 @@ body {
 
 /* Image container */
 .img {
-    width: 100%;
+    /* width: 100%; */
+    
 }
 
 
